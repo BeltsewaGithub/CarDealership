@@ -1,0 +1,43 @@
+E:\Учёба\Горячкин Д.В\РПП кр\Курсач\CarDealershipApp\bin\Debug\CarDealershipApp.exe.config
+E:\Учёба\Горячкин Д.В\РПП кр\Курсач\CarDealershipApp\bin\Debug\CarDealershipApp.exe
+E:\Учёба\Горячкин Д.В\РПП кр\Курсач\CarDealershipApp\bin\Debug\CarDealershipApp.pdb
+E:\Учёба\Горячкин Д.В\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.csproj.AssemblyReference.cache
+E:\Учёба\Горячкин Д.В\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.Properties.Resources.resources
+E:\Учёба\Горячкин Д.В\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.csproj.GenerateResource.cache
+E:\Учёба\Горячкин Д.В\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.csproj.CoreCompileInputs.cache
+E:\Учёба\Горячкин Д.В\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.exe
+E:\Учёба\Горячкин Д.В\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.pdb
+E:\Учёба\Горячкин Д.В\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.AutorizationForm.resources
+E:\Учёба\Горячкин Д.В\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.ManagerForm.resources
+E:\Учёба\Горячкин Д.В\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.DirectorForm.resources
+E:\Учёба\Горячкин Д.В\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.EmployeesInformationFormDirector.resources
+E:\Учёба\Горячкин Д.В\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.ClientsInformationFormDirector.resources
+E:\Учёба\Горячкин Д.В\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.SalesFormDirector.resources
+E:\Учёба\Горячкин Д.В\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.AddSaleContractFormManager.resources
+E:\Учёба\Горячкин Д.В\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.AddServiceContractFormManager.resources
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\bin\Debug\CarDealershipApp.exe.config
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\bin\Debug\CarDealershipApp.exe
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\bin\Debug\CarDealershipApp.pdb
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.csproj.AssemblyReference.cache
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.AddSaleContractFormManager.resources
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.AddServiceContractFormManager.resources
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.AutorizationForm.resources
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.ClientsInformationFormDirector.resources
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.EmployeesInformationFormDirector.resources
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.ManagerForm.resources
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.DirectorForm.resources
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.Properties.Resources.resources
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.SalesFormDirector.resources
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.csproj.GenerateResource.cache
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.csproj.CoreCompileInputs.cache
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.exe
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.pdb
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\bin\Debug\FastReport.Bars.dll
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\bin\Debug\FastReport.Compat.dll
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\bin\Debug\FastReport.DataVisualization.dll
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\bin\Debug\FastReport.dll
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\bin\Debug\FastReport.Editor.dll
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\bin\Debug\FastReport.VSDesign.dll
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\bin\Debug\FastReport.Web.dll
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\bin\Debug\FastReport.xml
+E:\Учёба\Разработка программных приложений\Горячкин Д.В КР Автосервис\РПП кр\Курсач\CarDealershipApp\obj\Debug\CarDealershipApp.csproj.CopyComplete

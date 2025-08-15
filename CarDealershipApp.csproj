@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\FastReport.Net.Demo.2025.2.3\build\net462\FastReport.Net.Demo.props" Condition="Exists('packages\FastReport.Net.Demo.2025.2.3\build\net462\FastReport.Net.Demo.props')" />
+  <Import Project="packages\FastReport.OpenSource.2025.2.0\build\FastReport.OpenSource.props" Condition="Exists('packages\FastReport.OpenSource.2025.2.0\build\FastReport.OpenSource.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FAF962BB-A16A-4032-A0DE-D080D9DF38F5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CarDealershipApp</RootNamespace>
+    <AssemblyName>CarDealershipApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="FastReport, Version=2025.2.3.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <HintPath>packages\FastReport.Net.Demo.2025.2.3\lib\net462\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Bars, Version=2025.2.3.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <HintPath>packages\FastReport.Net.Demo.2025.2.3\lib\net462\FastReport.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Compat, Version=2025.2.3.0, Culture=neutral, PublicKeyToken=5ceb240df42bf6e8, processorArchitecture=MSIL">
+      <HintPath>packages\FastReport.Compat.2025.2.3\lib\net462\FastReport.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.DataVisualization, Version=2025.2.3.0, Culture=neutral, PublicKeyToken=5ceb240df42bf6e8, processorArchitecture=MSIL">
+      <HintPath>packages\FastReport.DataVisualization.2025.2.3\lib\net462\FastReport.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Editor, Version=2025.2.3.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <HintPath>packages\FastReport.Net.Demo.2025.2.3\lib\net462\FastReport.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.VSDesign, Version=2025.2.3.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <HintPath>packages\FastReport.Net.Demo.2025.2.3\lib\net462\FastReport.VSDesign.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Web, Version=2025.2.3.0, Culture=neutral, PublicKeyToken=db7e5ce63278458c, processorArchitecture=MSIL">
+      <HintPath>packages\FastReport.Net.Demo.2025.2.3\lib\net462\FastReport.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddSaleContractFormManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSaleContractFormManager.Designer.cs">
+      <DependentUpon>AddSaleContractFormManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddServiceContractFormManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddServiceContractFormManager.Designer.cs">
+      <DependentUpon>AddServiceContractFormManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AutorizationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutorizationForm.Designer.cs">
+      <DependentUpon>AutorizationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarDealershipDataSet.cs">
+      <DependentUpon>CarDealershipDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CarDealershipDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CarDealershipDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Checking.cs" />
+    <Compile Include="ClientsInformationFormDirector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientsInformationFormDirector.Designer.cs">
+      <DependentUpon>ClientsInformationFormDirector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeesInformationFormDirector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeesInformationFormDirector.Designer.cs">
+      <DependentUpon>EmployeesInformationFormDirector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerForm.Designer.cs">
+      <DependentUpon>ManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DirectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DirectorForm.Designer.cs">
+      <DependentUpon>DirectorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalesFormDirector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesFormDirector.Designer.cs">
+      <DependentUpon>SalesFormDirector.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddSaleContractFormManager.resx">
+      <DependentUpon>AddSaleContractFormManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddServiceContractFormManager.resx">
+      <DependentUpon>AddServiceContractFormManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutorizationForm.resx">
+      <DependentUpon>AutorizationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientsInformationFormDirector.resx">
+      <DependentUpon>ClientsInformationFormDirector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeesInformationFormDirector.resx">
+      <DependentUpon>EmployeesInformationFormDirector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm.resx">
+      <DependentUpon>ManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DirectorForm.resx">
+      <DependentUpon>DirectorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SalesFormDirector.resx">
+      <DependentUpon>SalesFormDirector.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="CarDealershipDataSet.xsc">
+      <DependentUpon>CarDealershipDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CarDealershipDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CarDealershipDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CarDealershipDataSet.xss">
+      <DependentUpon>CarDealershipDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\FastReport.OpenSource.2025.2.0\build\FastReport.OpenSource.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\FastReport.OpenSource.2025.2.0\build\FastReport.OpenSource.props'))" />
+    <Error Condition="!Exists('packages\FastReport.Net.Demo.2025.2.3\build\net462\FastReport.Net.Demo.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\FastReport.Net.Demo.2025.2.3\build\net462\FastReport.Net.Demo.props'))" />
+  </Target>
+</Project>
